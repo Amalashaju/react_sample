@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Amala from './Amala'
 import Aish from './Aish'
+import Pooj from './Pooj'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <Amala/>
       <Aish/>
+      <Pooj/>
     </>
   )
 }
